@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "eccc07c5b3a862b57f0dcf1a6b2917b5",
+    "content-hash": "7c73b4c3d62c42928ea04f0c9acc97db",
+    "packages": [
+        {
+            "name": "max_dark/useless-abstraction",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/max_dark/useless-abstraction.git",
+                "reference": "f40b0abe50aedcfaeb0459a7f5ba29446ab56534"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/max_dark/useless-abstraction/get/f40b0abe50aedcfaeb0459a7f5ba29446ab56534.zip",
+                "reference": "f40b0abe50aedcfaeb0459a7f5ba29446ab56534",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "useless\\abstraction\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Max Dark",
+                    "email": "maxim.dark@gmail.com"
+                }
+            ],
+            "description": "useless\\abstraction library",
+            "homepage": "https://bitbucket.org/max_dark/useless-abstraction",
+            "support": {
+                "source": "https://bitbucket.org/max_dark/useless-abstraction/src/f40b0abe50aedcfaeb0459a7f5ba29446ab56534/?at=1.0.0"
+            },
+            "time": "2016-08-27 04:14:31"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6.4"
+    },
+    "platform-dev": []
+}
