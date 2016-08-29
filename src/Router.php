@@ -34,28 +34,28 @@ class Router
     }
 
     /**
-     * @param string $method
-     * @param string $url
+     * Dispatch request to action
+     * @param string $method HTTP method get|post
+     * @param string $url action url
+     *
      * @return array
      */
     public function dispatch($method, $url)
     {
-        $method = strtolower($method);
         $matched = false;
-        foreach ($this->routes as $route => $action) {
-            list($currentMethod, $currentUrl) = explode(':', $route, 2);
-            if ($currentMethod !== $method) {
+        $method = strtolower($method);
+        $path = "{$method}:{$url}";
+        foreach ($this->routes as $currentPath => $currentAction) {
+            if ($currentPath !== $path) {
                 continue;
             }
-            if ($currentUrl === $url) {
-                $matched = true;
-                $className = $action['class'];
-                $methodName = $action['action'];
-                $paramList = $this->getParams($method, $action['params']);
-                if (false !== $paramList) {
-                    $controller = new $className($this->storage);
-                    return call_user_func_array([$controller, $methodName], $paramList);
-                }
+            $matched = true;
+            $actionClass = $currentAction['class'];
+            $methodName = $currentAction['action'];
+            $paramList = $this->getParams($method, $currentAction['params']);
+            if (false !== $paramList) {
+                $controller = new $actionClass($this->storage);
+                return call_user_func_array([$controller, $methodName], $paramList);
             }
         }
         return [
