@@ -2,7 +2,7 @@
   "name": "max_dark/useless-rest",
   "description": "Simple REST router",
   "minimum-stability": "stable",
-  "version": "1.0",
+  "version": "1.0.1",
   "license": "MIT",
   "authors": [
     {
@@ -17,7 +17,7 @@
   },
   "require": {
     "php": ">=5.6.4",
-    "max_dark/useless-abstraction": "1.0.*"
+    "max_dark/useless-abstraction": "~1.0.0"
   },
   "repositories": [
     {

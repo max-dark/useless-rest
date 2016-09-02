@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "eccc07c5b3a862b57f0dcf1a6b2917b5",
-    "content-hash": "7c73b4c3d62c42928ea04f0c9acc97db",
+    "hash": "c9b40b07fc3441a0bafbcd8f70bdb5b7",
+    "content-hash": "49f8ef222f554f88dd4e5ceeb7c6c72b",
     "packages": [
         {
             "name": "max_dark/useless-abstraction",
-            "version": "1.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/max_dark/useless-abstraction.git",
-                "reference": "f40b0abe50aedcfaeb0459a7f5ba29446ab56534"
+                "reference": "17558bb85fa1c9cc044468a976c243d054e38585"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/max_dark/useless-abstraction/get/f40b0abe50aedcfaeb0459a7f5ba29446ab56534.zip",
-                "reference": "f40b0abe50aedcfaeb0459a7f5ba29446ab56534",
+                "url": "https://bitbucket.org/max_dark/useless-abstraction/get/17558bb85fa1c9cc044468a976c243d054e38585.zip",
+                "reference": "17558bb85fa1c9cc044468a976c243d054e38585",
                 "shasum": ""
             },
             "require": {
@@ -42,9 +42,10 @@
             "description": "useless\\abstraction library",
             "homepage": "https://bitbucket.org/max_dark/useless-abstraction",
             "support": {
-                "source": "https://bitbucket.org/max_dark/useless-abstraction/src/f40b0abe50aedcfaeb0459a7f5ba29446ab56534/?at=1.0.0"
+                "source": "https://bitbucket.org/max_dark/useless-abstraction/src/17558bb85fa1c9cc044468a976c243d054e38585/?at=1.0.1",
+                "issues": "https://bitbucket.org/max_dark/useless-abstraction/issues"
             },
-            "time": "2016-08-27 04:14:31"
+            "time": "2016-09-02 07:53:49"
         }
     ],
     "packages-dev": [],
